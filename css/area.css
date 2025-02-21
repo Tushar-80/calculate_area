@@ -24,3 +24,6 @@ body{
 .input-num:focus{
     outline: none;
 }
+.text-result{
+    text-align: center;
+}
