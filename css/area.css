@@ -44,3 +44,6 @@ body{
 .btn-reset{
     background-color: #a6cdc6;
 }
+.btn-group{
+    display: flex;
+}
