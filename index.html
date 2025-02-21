@@ -32,7 +32,19 @@
         </div>
     </div>
     <script>
-        
+      function toggleInputs() {
+    const shape = document.getElementById('shape').value;
+    const rectangleInputs = document.getElementById('rectangleInputs');
+    const circleInputs = document.getElementById('circleInputs');
+
+    if (shape === 'rectangle') {
+        rectangleInputs.style.display = 'block';
+        circleInputs.style.display = 'none';
+    } else {
+        rectangleInputs.style.display = 'none';
+        circleInputs.style.display = 'block';
+    }
+}   
     </script>
 </body>
 </html>
