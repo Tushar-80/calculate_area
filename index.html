@@ -60,7 +60,17 @@ function calculateArea() {
 
     document.getElementById('result').innerText = `Area: ${area.toFixed(2)}`;
 }
+function reset(){
+        const length = document.getElementById("length");
+        const width = document.getElementById("width");
+        const radius = document.getElementById("radius");
+        const area = document.getElementById("area")
 
+        length.value = "";
+        width.value = "";
+        radius.value = "";
+        result.innerText = "-";
+    }
     </script>
 </body>
 </html>
